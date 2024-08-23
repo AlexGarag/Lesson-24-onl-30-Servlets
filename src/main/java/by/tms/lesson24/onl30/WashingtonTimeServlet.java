@@ -7,10 +7,10 @@ import java.io.IOException;
 
 import static by.tms.lesson24.onl30.ShaperResponse.shapeResponse;
 
-@WebServlet("/beijing")
-public class BeijingTimeServlet extends HttpServlet {
-    private static final String NAME_CITY = "Beijing";
-    private static final String ZONE_ID = "Asia/Shanghai";
+@WebServlet("/washington")
+public class WashingtonTimeServlet extends HttpServlet {
+    private static final String NAME_CITY = "Washington";
+    private static final String ZONE_ID = "America/New_York";
     private static final String DATE_FORMAT = "HH:mm:ss";
     private static final String RESPONSE_TEMPLATE = "time in %s - %s";
 
