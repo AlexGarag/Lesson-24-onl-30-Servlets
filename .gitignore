@@ -7,6 +7,9 @@ target/
 .target
 .target/*.*
 .test
+.mvn
+mvnw
+mvnw.cmd
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
